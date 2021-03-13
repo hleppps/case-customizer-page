@@ -1,0 +1,134 @@
+/* Colors for my Website*/
+@color-light-brown: #b38d55;
+@color-violet: #544782;
+
+.centered-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+html {
+  font-family: 'PT Sans';
+  font-size: 10px;
+}
+
+.a-link {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: .15rem;
+
+  color: @color-violet;
+}
+
+.a-link:hover {
+  color: @color-light-brown;
+}
+
+.a-phone-number {
+  font-size: 1.3rem;
+
+  color: @color-light-brown;
+}
+
+.a-image-btn {
+  background-color: Transparent;
+  color: @color-violet;
+  font: 3rem FontAwesome;
+  margin: 10px;
+}
+
+/*TO FIX*/
+.a-image-btn:hover {
+  color: @color-light-brown;
+}
+
+.m-contact-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  height: 45px;
+}
+
+.m-contacts {
+  .centered-element;
+
+  width: 180px;
+}
+
+.m-menu-main {
+  .centered-element;
+
+  width: 480px;
+}
+
+.m-header-main {
+  .centered-element;
+
+  height: 70px;
+  outline-bottom: 1px solid @color-light-brown;
+}
+
+.a-link-sub-basic {
+  .a-link;
+  font-weight: normal;
+  font-size: 1.4rem;
+
+  margin-right: 20px;
+}
+
+/*TO FIX*/
+.a-link-sub-basic:hover {
+  color: @color-light-brown;
+}
+
+.a-link-sub-secondary {
+  .a-link;
+  font-weight: normal;
+  font-size: 1.2rem;
+
+  margin-right: 20px;
+}
+
+/*TO FIX*/
+.a-link-sub-secondary:hover {
+  color: @color-light-brown;
+}
+
+.a-table-row {
+  width: 170px;
+  height: 20px;
+}
+
+.m-menu-sub {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+
+/*TODO IN NORMAL WAY || POS: FIXED FOR WRAPPER*/
+.test { 
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.m-header-sub-basic {
+  /*position: fixed;*/
+
+  width: 100%;
+
+  background-color: #fff;
+  border-bottom: 1px solid @color-light-brown;
+
+  /*visibility: hidden;*/
+}
+
+.m-header-sub-secondary {
+  .m-header-sub-basic;
+  padding-top: 15px;
+  /*margin-top: 15px;*/
+}
